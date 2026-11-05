@@ -1,6 +1,6 @@
 ﻿# PetShop
 ‣# Dokumentasi Tugas Besar Sistem Basis Data (SBD)
-## Studi Kasus: Sistem Pet Shop & Penitipan Hewan Peliharaan (Tema 8)
+## Studi Kasus: Sistem Pet Shop & Penitipan Hewan Peliharaan
 
 Website Sistem Informasi Pet Shop & Penitipan Hewan Peliharaan (**PetCare Studio**) dibangun menggunakan **PHP Native** (tanpa framework), **MySQL / phpMyAdmin**, dan antarmuka responsif modern menggunakan **HTML5, CSS3, dan Bootstrap 5**.
 
@@ -159,10 +159,10 @@ ORDER BY p.id_penitipan DESC;
 4. Klik tab **Import**, pilih file `database.sql` yang ada di direktori proyek ini, lalu klik **Go / Kirim**.
 
 ### Langkah 2: Menjalankan Website
-- **Jika menggunakan XAMPP**: Letakkan folder `Tubes` ini di dalam `C:\xampp\htdocs\`.
-  Akses di browser: `http://localhost/Tubes/`
-- **Jika menggunakan Laragon**: Letakkan folder `Tubes` di dalam `C:\laragon\www\`.
-  Akses di browser: `http://localhost/Tubes/` atau `http://tubes.test/`
+- **Jika menggunakan XAMPP**: Letakkan folder `PetShop` ini di dalam `C:\xampp\htdocs\`.
+  Akses di browser: `http://localhost/PetShop/`
+- **Jika menggunakan Laragon**: Letakkan folder `PetShop` di dalam `C:\laragon\www\`.
+  Akses di browser: `http://localhost/PetShop/` atau `http://PetShop.test/`
 - **Atau menggunakan PHP CLI**:
   Jalankan terminal di folder proyek:
   ```bash
@@ -172,7 +172,7 @@ ORDER BY p.id_penitipan DESC;
 
 ---
 
-## 6. Akun Login Demo
+## 6. Akun Login Demo Only
 
 | Role | Username | Password |
 |---|---|---|
